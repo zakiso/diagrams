@@ -1,9 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T02:03:45.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="SDr5Nk5ONPoNZ_Yu568e" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T02:43:59.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="V7rYi1_0RjZC8mDQNoPb" version="14.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2151" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3419" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ky48G_2lpGq2yE_ITVhJ-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1410" y="659.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-118" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; MarketComponent&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1710" y="730" width="600" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-115" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ky48G_2lpGq2yE_ITVhJ-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1327" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-112" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1707" y="1210" width="760" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="ky48G_2lpGq2yE_ITVhJ-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseMarketComponent&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ tradeType: Type&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ switchSymbol(Symbol): Void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setTradeType(type: Type):void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="530" width="190" height="120" as="geometry" />
         </mxCell>
@@ -282,6 +298,112 @@
         </mxCell>
         <mxCell id="ky48G_2lpGq2yE_ITVhJ-82" value="+ handlePairChange(pair): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ky48G_2lpGq2yE_ITVhJ-79">
           <mxGeometry y="60" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ky48G_2lpGq2yE_ITVhJ-87" target="ky48G_2lpGq2yE_ITVhJ-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1027" y="662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-87" value="&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&amp;nbsp;&lt;/i&gt;&lt;b&gt;BaseMarketComponent&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1707" y="590" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-88" value="TradeHistoryFramgment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1517" y="772" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-91" value="OrderBookFragment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1687" y="827.5" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-92" value="OrderBookFragment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1687" y="775" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-93" value="InfoFragment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1297" y="772" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-94" value="&amp;nbsp; KlineFragment" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1537" y="827.5" width="400" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-95" value="SkylineFragment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1417" y="838" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-96" value="DepthFragment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1277" y="838" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-100" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseMarketComponent&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ tradeType: Type&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ switchSymbol(Symbol): Void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setTradeType(type: Type):void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-940" y="560" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-117" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.397;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;shape=flexArrow;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ky48G_2lpGq2yE_ITVhJ-103" target="ky48G_2lpGq2yE_ITVhJ-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-103" value="&lt;i&gt;&amp;lt;&amp;lt;abstract class&amp;gt;&amp;gt; &lt;br&gt;&lt;b&gt;BaseMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1707" y="1080" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ky48G_2lpGq2yE_ITVhJ-104" target="ky48G_2lpGq2yE_ITVhJ-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1727" y="1250" />
+              <mxPoint x="-1727" y="1585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-104" value="&lt;i&gt;&lt;b&gt;SpotMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1667" y="1230" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-105" value="&lt;i&gt;&lt;b&gt;MarginMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1217" y="1230" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-106" value="&lt;i&gt;&lt;b&gt;FutureUMMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1437" y="1230" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-107" value="&lt;i&gt;&lt;b&gt;MarginMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1207" y="1250" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-108" value="&lt;b&gt;&lt;i&gt;...&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1197" y="1280" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-109" value="&lt;i&gt;&lt;b&gt;SpotLandMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1667" y="1280" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-110" value="&lt;i&gt;&lt;b&gt;FutureLandUMMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1437" y="1280" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-116" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseMarketDetailActivity&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ selectPopWindow: Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ marketInfoView: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+provideTradeType(Symbol): Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-870" y="1060" width="190" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-119" value="&lt;i&gt;&lt;b&gt;&lt;br&gt;SpotMarketDetailActivity&lt;/b&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1707" y="1420" width="177" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-120" value="MarketInfoView" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1687" y="1470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-121" value="MarketChooser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1687" y="1520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-122" value="KlineFragment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1687" y="1570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-124" value="&lt;b&gt;&amp;nbsp; OhterComponent&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1077" y="730" width="137" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-125" value="MarketChooser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1062" y="765" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-126" value="MarketInfoView" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1062" y="815" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-131" value="OrderBookFragment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1687" y="1620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-132" value="OrderBookFragment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1687" y="1670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-134" value="OrderBookFragment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1677" y="1680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-135" value="MarketFooterView" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1667" y="1690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ky48G_2lpGq2yE_ITVhJ-136" value="MarketFooterView" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1062" y="858" width="112" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
